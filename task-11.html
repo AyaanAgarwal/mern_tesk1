@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-11</title>
+    <style>
+        body{
+            font-size: 20px;
+        }
+        #main {
+            border: 1px solid black;
+            width: 30%;
+            margin: auto;
+            padding-bottom: 10px;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            margin-bottom: 20px;
+        }
+        .labels{
+            margin: 0px 5%;
+        }
+        .inbox{
+            font-size: 20px;
+            margin: 10px 5%;
+            width: 87%;
+            padding: 5px;
+            border: 0.5px solid lightgray;
+        }
+        #login{
+            font-size: 20px;
+            margin: 10px 5%;
+            width: 90%;
+            padding: 5px;
+            background-color: green;
+            color: white;
+            border: 0px;
+        }
+        #sec{
+            margin: 10px 5% 0px;
+            background-color: lightgray;
+            padding-top: 15px;
+            padding-bottom: 5px;
+        }
+        #cancel{
+            margin: 5px;
+            font-size: 20px;
+            padding: 7px;
+            border: 0px;
+            border-radius: 5px;
+            color: white;
+            background-color: red;
+        }
+        #forget{
+            display: inline;
+            margin-left: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <img src="./images/task-11_image.jpg" alt="user_image">
+        <form>
+            <label for="username" class="labels">Username</label><br>
+            <input type="text" name="username" placeholder="Enter Username" class="inbox"><br>
+            <label for="password" class="labels">Password</label><br>
+            <input type="text" name="password" placeholder="Enter Password" class="inbox"><br>
+            <input type="button" name="login" value="login" id="login"><br>
+            <input type="checkbox" name="rem" style="margin-left: 5%;">remember me<br>
+            <div id="sec">
+                <input type="button" value="Cancel" id="cancel">
+                <p id="forget">Forget <a href="" style="color: black;">Password?</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

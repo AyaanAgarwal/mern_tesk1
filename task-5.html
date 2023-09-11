@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-5</title>
+</head>
+<body>
+    <h1>Registrationn Form</h1>
+    <form>
+        <table border="2"  style="border-collapse: collapse;">
+            <tr>
+                <td><label for="fn">First Name: </label></td>
+                <td><input type="text" name="fn" placeholder="Enter your first name"></td>
+            </tr>
+            <tr>
+                <td><label for="ln">Last Name: </label></td>
+                <td><input type="text" name="ln" placeholder="Enter your last name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email: </label></td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="text" name="password" placeholder="Enter Password"></td>
+            </tr>
+            <tr>
+                <td><label for="re-pass">Re Password: </label></td>
+                <td><input type="text" name="re-pas s" placeholder="Re Enter Password"></td>
+            </tr>
+            <tr>
+                <td><label for="gender" >Gender</label></td>
+                <td>
+                    <input type="radio" name="gender" value="male">Male<br>
+                    <hr>
+                    <input type="radio" name="gender" value="female">Female<br>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="number" name="age" placeholder="Enter your age"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number: x</label></td>
+                <td><input type="text" name="phone"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address: </label></td>
+                <td><input type="text" name="address" placeholder="Enter Address"></td>
+            </tr>
+            <tr>
+                <td><label for="state">State: </label></td>
+                <td><input type="text" name="state"></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country: </label></td>
+                <td>
+                    <select name="country">
+                        <option>Choose your country</option>
+                        <option>India</option>
+                        <option>England</option>
+                        <option>Russia</option>
+                        <option>US</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="language">Language Known: </label></td>
+                <td>
+                    <input type="checkbox" name="english">English
+                    <input type="checkbox" name="kannada">Kannada
+                    <input type="checkbox" name="hindi">Hindi
+                    <input type="checkbox" name="telugu">Telugu
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <input type="checkbox" name="valid"> Hereby I declare all the given details are true
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Log in to <a href="https://ethnus.com/">Enthnus</a> website</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
